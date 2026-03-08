@@ -3,6 +3,7 @@ public class Test {
 	public static void main(String[] args) {
 		//overloading     Overriding
 		Parent p = new Child ();
+		p.m1(13);
 		p.m1(100);
 	}
 
