@@ -12,8 +12,9 @@ class Parent {
 		System.out.println("Parent");
 	}
 }
+
 class Child extends Parent{
-	public void m1(String name) {
+	public void m1(float name) {
 		System.out.println("Child");
 	}
 	
